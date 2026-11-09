@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache updateCheck="false" monitoring="off" dynamicConfig="false">
+    <defaultCache maxEntriesLocalHeap="1000" eternal="false" timeToLiveSeconds="3600" timeToIdleSeconds="0"/>
+    <cache name="com.example.model.Auteur" maxEntriesLocalHeap="1000" eternal="false" timeToLiveSeconds="3600"/>
+    <cache name="com.example.model.Livre" maxEntriesLocalHeap="1000" eternal="false" timeToLiveSeconds="3600"/>
+    <cache name="com.example.model.Auteur.livres" maxEntriesLocalHeap="1000" eternal="false" timeToLiveSeconds="3600"/>
+    <cache name="default-update-timestamps-region" maxEntriesLocalHeap="10000" eternal="true"/>
+    <cache name="default-query-results-region" maxEntriesLocalHeap="1000" eternal="false" timeToLiveSeconds="3600"/>
+</ehcache>
